@@ -1,0 +1,561 @@
+*{
+  /*outline: 1px dotted red;*/
+}
+
+html{
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }*/
+
+body{
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+
+h1{
+  color: #ccc;
+  weight: 300;
+  font-size: 50px
+}
+
+figure{
+  margin: auto;
+}
+
+section{
+  margin: 0px;
+}
+
+.content{
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  background-color: black;
+  color: white;
+  position: relative;
+  z-index: 2;
+  /*background: black;*/
+  margin-bottom: 100px
+
+}
+
+.content article{
+  padding: 100px 0;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills_columns{
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+.skills_columns ul{
+  list-style: none;
+  list-style-image: none;
+}
+
+.skills_columns li{
+  margin-top: 6px;
+}
+
+.skills_section{
+  position: relative;
+  right: 40px;
+  margin: 0 ;
+  text-align: center;
+}
+
+#skills_section_title{
+  position: relative;
+  top: 50px;
+  margin: 0px;
+}
+
+.skills_title{
+  border-bottom: 1px dotted white;
+}
+
+img{
+  max-width: 100%;
+}
+
+/*Parallax*/
+
+#tripp_world{
+  position: relative;
+  height: 2500px;
+  background-image: url(/images/star_field_bg2.png);
+  background-size: auto 1200px;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 0px;
+  z-index: 3;
+}
+
+.stars_iso{
+  height: 3200px;
+  background-image: url(/images/star_field1C.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto 75%;
+  position: relative;
+}
+
+.asteroids{
+  height: 3600px;
+  background-image: url(/images/asteroids_1C.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  position: relative;
+  bottom: 3000px;
+}
+
+.tripp_figure{
+  height: 4000px;
+  background-image: url(/images/tripp_figure_comp_alt.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 85% auto;
+  position: relative;
+  bottom: 6850px;
+}
+
+.planets_one{
+  height: 4000px;
+  background-image: url(/images/planets_1C.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 85% auto;
+  position: relative;
+  bottom: 9850px;
+}
+
+.tripp_logo{
+  height: 4000px;
+  background-image: url(/images/tripp_logo_resize1.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 75% auto;
+  position: relative;
+  bottom: 13850px;
+}
+
+.space_lines{
+  height: 4000px;
+  background-image: url(/images/space_lines.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  position: relative;
+  bottom: 16650px;
+}
+
+.planets_two{
+  height: 4000px;
+  background-image: url(/images/planets_2C.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 75% auto;
+  position: relative;
+  bottom: 21450px;
+}
+
+.asteroids2A{
+  height: 3600px;
+  background-image: url(/images/asteroids_2C.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 80% auto;
+  position: relative;
+  bottom: 25200px;
+  z-index: 5;
+}
+
+.asteroids2B{
+  height: 3600px;
+  background-image: url(/images/asteroids_3C.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 80% auto;
+  position: relative;
+  bottom: 29200px;
+  z-index: 5;
+}
+
+.asteroids3{
+  height: 3600px;
+  background-image: url(/images/asteroids_4C.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 80% auto;
+  position: relative;
+  bottom: 6800px;
+  z-index: 5;
+}
+
+.section_title{
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.section_nfo{
+  text-align: left;
+}
+
+#profile_title{
+  height: 240px;
+  background-image: url(/images/tripp_logo_resize1.png);
+  background-size: 90% auto;
+}
+
+#project1_title{
+  height: 180px;
+  background-image: url(/images/webdev_projects/byfn_comics_title_web.png);
+  background-size: 85% auto;
+}
+
+#project2_title{
+  height: 220px;
+  background-image: url(/images/webdev_projects/soap_box_title.png);
+  background-size: 80% auto;
+}
+
+#project3_title{
+  height: 180px;
+  background-image: url(/images/webdev_projects/operation_drebbel_title.png);
+  background-size: 80% auto;
+}
+
+
+#gdesign_link{
+  font-size: 17px;
+  text-decoration: none;
+  color: #76A4CB;
+
+}
+
+
+#gdesign_link:hover{
+color: #00BDFD;
+}
+
+/*Image Grid*/
+
+.gallery_images {
+  margin-bottom: 30px;
+}
+.gallery_images figure {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  opacity: 0;
+  transform: translateX(30px);
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+}
+.gallery_images figure.is-showing {
+  opacity: 1;
+  transform: translateX(0px);
+}
+.gallery_images figure img {
+  display: block;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.gallery_images figure:hover figcaption {
+  left: 0%;
+}
+.gallery_images figure:hover img {
+  transform: scale(1.1);
+}
+.gallery_images figcaption {
+  position: absolute;
+  bottom: 10px;
+  left: -100%;
+  background: black;
+  color: white;
+  padding: 2px 8px;
+  font-size: 11px;
+  transition: all 0.3s ease-in-out;
+}
+
+#parallax_port_2{
+  position: relative;
+  top: 1000px;
+  left: 0px;
+  padding: 0px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/*Footer*/
+
+footer{
+  background: black;
+  color: white;
+  padding: 10px 0px;
+  position: relative;
+  top: 100px;
+  width: 100%;
+}
+
+footer ul{
+  list-style: none;
+  list-style-image: none;
+  list-style-position:
+}
+
+footer li{
+  margin-top: 5px;
+}
+
+footer a{
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+  color: #5C9AD2;
+}
+
+#footer_column1{
+  position: relative;
+  right: 70px;
+}
+
+#footer_column2{
+  position: relative;
+  right: 90px;
+}
+
+.info_link{
+  font-weight: bold;
+}
+
+.footer_content{
+  max-width: 640px;
+  margin: 0px auto;
+}
+
+.footer_columns{
+  vertical-align: top;
+  display: inline-block;
+}
+
+.tripp_logo_outline{
+  /*display: inline-block;*/
+  width:400px;
+  height: 185px;
+  background-image: url(/images/tripp_logo_outline.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  position: relative;
+  left: 350px;
+  bottom: 184px;
+}
+
+.tripp_logo_nav{
+  /*display: inline-block;*/
+  height: 100px;
+  background-image: url(/images/tripp_logo_navB.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  position: relative;
+  top: 35px;
+  right:13px;
+  margin-bottom: 0px;
+  z-index: 7;
+}
+
+.menu{
+  margin-top: 30px;
+}
+
+nav.page-navigation{
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  color: #ccc;
+  width: 330px;
+  background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+  position: fixed;
+  left: 15%;
+  top: 10%;
+  left: 0;
+  z-index: 6;
+}
+
+nav.page-navigation ul{
+  margin-left: 10px;
+  padding-left: 0px;
+  padding-top: 15px;
+  border-left: 7px solid #ccc;
+  list-style: none;
+  z-index: 10;
+}
+
+nav.page-navigation li{
+  padding-left: 0px;
+  text-align: left;
+  width: 100%;
+  margin-top: 10px;
+}
+
+nav.page-navigation a{
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0.6em  10%;
+  width: 80%;
+}
+
+nav.page-navigation .current a{
+  color: #5C9AD2;
+}
+
+nav.page-navigation a:hover{
+  color: #00BDFD;
+  transform: scale(2, 2);
+}
+
+.deep_space_console{
+  color: white;
+  position: relative;
+  top: 760px;
+  padding: 100px 0;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 10;
+}
+
+/*.warp_button_console{
+  position: relative;
+  padding: 0px;
+  max-width: 610px;
+  margin: 0 auto;
+  text-align: center;
+}*/
+
+.warp_button_element{
+  height: 370px;
+  background-image: url(/images/warp_button_rs.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  z-index: 5;
+}
+
+.warp_button_element:hover{
+  height: 370px;
+  background-image: url(/images/warp_button_rs2.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 110% auto;
+  z-index: 5;
+}
+
+#warp_button2{
+  margin: 0px;
+  position: relative;
+}
+
+#star_field{
+  width: 100%;
+  position: relative;
+  left: 80px;
+}
+
+#star{
+  width: 100%;
+  position: relative;
+  left: 80px;
+}
+
+#moon_1{
+  width: 100%;
+  position: relative;
+  left: 80px;
+}
+
+#planet{
+  width: 100%;
+  position: relative;
+  left: 80px;
+}
+
+#in_view_asteroids{
+  width: 100%;
+  position: relative;
+  left: 90px;
+}
+
+#moon_2{
+  width: 115%;
+  position: relative;
+  right: 95px;
+  top: 40px;
+}
+
+#in_view_asteroids2{
+  width: 115%;
+  position: relative;
+  left: 80px;
+}
+
+#port_window{
+  width: 115%;
+  position: relative;
+  top: 10px;
+  left: 80px;
+}
+
+/*#parallax_viewport{
+  position:relative;
+  overflow:hidden;
+  /*width:npx;
+  height:npx;*/
+/*}*/
+
+#parallax_port{
+  padding: 0px;
+  height: 450px;
+  position: relative;
+  right: 140px;
+  width: 158%;
+  overflow: hidden;
+}
+
+#parallax_port img{
+  max-width: 80%;
+}
