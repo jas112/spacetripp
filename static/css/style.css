@@ -2,29 +2,275 @@
   /*outline: 1px dotted red;*/
 }
 
+@media only screen and (max-width: 480px){
+
+  body{
+    height: 700px;
+  }
+
+  #tripp_world{height: 1000px;}
+
+  .asteroids{height: 3600px;bottom: 3000px;}
+  .planets_one{height: 4000px;bottom: 10350px;}
+  .tripp_logo{height: 4000px;bottom: 14450px;}
+  .space_lines{bottom: 17950px;}
+  .planets_two{height: 4000px;bottom: 22250px;}
+  .asteroids2A{height: 3600px;bottom: 26200px;}
+  .asteroids2B{height: 3600px;bottom: 29790px;}
+  .asteroids3{height: 3600px;bottom: 11400px;z-index: 100;}
+
+  .tripp_figure{position: relative;bottom: 6750px;}
+
+  p{font-size: .80rem;}
+  .content article{
+    padding: 100px 0;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    left: 10px;
+    text-align: center;
+  }
+  .section_title_txt{font-size: 1.5rem; font-weight: bold;}
+  .section_nfo{font-size: .85rem;}
+  .screenshots_txt{font-size: 1.0rem;}
+  .project_title_txt{font-weight: bold; font-size: 1.2rem;}
+  nav.page-navigation{width: 10px;}
+  #navigation a{font-size: 1.9rem;}
+  #profile_title{height: 100px; background-size: 90% auto;}
+  #project1_title{height: 130px; background-size: 85% auto;}
+  #project2_title{height: 150px; background-size: 80% auto;}
+  #project3_title{height: 120px; background-size: 80% auto;}
+  #parallax_port{height: 240px;}
+
+  .link_caption{
+    position: relative;
+    top: 18px;
+    right: 20px;
+    color: #00BDFD;
+    font-size: .1rem;
+    font-weight: bold;
+    vertical-align: top;
+    opacity: 0;
+  }
+
+  .tripp_logo_outline{
+    margin: 0 auto;
+    max-width: 700px;
+    height: 240px;
+    background-image: url(/images/tripp_logo_outline.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 75% auto;
+    position: relative;
+  }
+
+  #parallax_port_2{
+    position: relative;
+    top: -20px;
+    left: 0px;
+    padding: 0px;
+    max-width: 290px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #parallax_port{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    max-width: 290px;
+    overflow: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 481px){
+
+  body{
+    height: 10000px;
+  }
+
+  .asteroids{height: 3600px;position: relative;bottom: 3000px;}
+  .planets_one{height: 4000px;position: relative;bottom: 9850px;}
+  .tripp_logo{height: 4000px;position: relative;bottom: 13850px;}
+  .space_lines{bottom: 16650px;}
+  .planets_two{height: 4000px;position: relative;bottom: 21450px;}
+  .asteroids2A{height: 3600px;bottom: 25200px;}
+  .asteroids2B{height: 3600px;bottom: 29200px;}
+  .asteroids3{height: 3600px;position: relative;bottom: 6800px;z-index: 100;}
+
+  #tripp_world{
+    height: 2500px;
+  }
+
+  .tripp_figure{position: relative; bottom: 6850px;}
+
+  p{font-size: 1.0rem;}
+  .content article{
+    padding: 100px 0;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section_title_txt{font-size: 2.5rem; font-weight: bold;}
+  .section_nfo{font-size: 1.05rem;}
+  .screenshots_txt{font-size: 1.2rem;}
+  .project_title_txt{font-weight: bold; font-size: 1.3rem;}
+  nav.page-navigation{width: 50px;}
+  #navigation a{font-size: 2.5rem;}
+  #profile_title{height: 200px; background-size: 70% auto;}
+  #project1_title{height: 160px; background-size: 75% auto;}
+  #project2_title{height: 180px; background-size: 60% auto;}
+  #project3_title{height: 140px; background-size: 60% auto;}
+  #parallax_port{height: 365px;}
+
+  .link_caption{
+    position: relative;
+    top: 23px;
+    right: 20px;
+    color: #00BDFD;
+    font-size: .7rem;
+    font-weight: bold;
+    vertical-align: top;
+    opacity: 0;
+  }
+
+  .tripp_logo_outline{
+    margin: 0 auto;
+    max-width: 700px;
+    height: 240px;
+    background-image: url(/images/tripp_logo_outline.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 80% auto;
+    position: relative;
+  }
+
+  #parallax_port_2{
+    position: relative;
+    top: -20px;
+    left: 0px;
+    padding: 0px;
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #parallax_port{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    max-width: 450px;
+    overflow: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 1024px){
+
+  body{height: 10000px;}
+
+  #tripp_world{height: 2500px;}
+
+  .asteroids{height: 3600px;position: relative;bottom: 3000px;}
+  .planets_one{height: 4000px;position: relative;bottom: 9850px;}
+  .tripp_logo{height: 4000px;position: relative;bottom: 13850px;}
+  .space_lines{bottom: 16650px;}
+  .planets_two{height: 4000px;position: relative;bottom: 21450px;}
+  .asteroids2A{height: 3600px;bottom: 25200px;}
+  .asteroids2B{height: 3600px;bottom: 29200px;}
+  .asteroids3{height: 3600px;position: relative;bottom: 6800px;z-index: 100;}
+
+  .tripp_figure{
+    height: 4000px;
+    background-image: url(/images/tripp_figure_comp_alt.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 85% auto;
+    position: relative;
+    bottom: 6850px;
+  }
+
+    p{font-size: 1.1rem;}
+    .content article{
+      padding: 100px 0;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .section_title_txt{font-size: 2.6rem; font-weight: bold;}
+    .section_nfo{font-size: 1.15rem;}
+    .screenshots_txt{font-size: 1.3rem;}
+    .project_title_txt{font-weight: bold; font-size: 1.4rem;}
+    nav.page-navigation{width: 223px;}
+    #navigation a{font-size: 2.3rem;}
+    #profile_title{height: 240px; background-size: 90% auto;}
+    #project1_title{height: 200px; background-size: 95% auto;}
+    #project2_title{height: 220px; background-size: 80% auto;}
+    #project3_title{height: 180px; background-size: 80% auto;}
+    #parallax_port{height: 380px;}
+
+    .link_caption{
+      position: relative;
+      top: 18px;
+      right: 20px;
+      color: #00BDFD;
+      font-size: .7rem;
+      font-weight: bold;
+      vertical-align: top;
+      opacity: 0;
+    }
+
+    #nlink_1:hover + #lcap_1{opacity: 1;}
+    #nlink_2:hover + #lcap_2{opacity: 1;}
+    #nlink_3:hover + #lcap_3{opacity: 1;}
+    #nlink_4:hover + #lcap_4{opacity: 1;}
+    #nlink_5:hover + #lcap_5{opacity: 1;}
+    #nlink_6:hover + #lcap_6{opacity: 1;}
+    #nlink_7:hover + #lcap_7{opacity: 1;}
+
+    .tripp_logo_outline{
+      margin: 0 auto;
+      max-width: 700px;
+      height: 240px;
+      background-image: url(/images/tripp_logo_outline.png);
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-size: 100% auto;
+      position: relative;
+    }
+
+    #parallax_port_2{
+      position: relative;
+      top: -20px;
+      left: 0px;
+      padding: 0px;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #parallax_port{
+      margin: 0 auto;
+      text-align: center;
+      padding: 0px;
+      position: relative;
+      max-width: 900px;
+      overflow: hidden;
+    }
+
+  }
+
 html{
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-/*article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block; }*/
-
 body{
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Play', sans-serif;
   background-color: black;
 }
 
@@ -43,21 +289,12 @@ section{
 }
 
 .content{
-  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
   background-color: black;
   color: white;
   position: relative;
   z-index: 2;
-  /*background: black;*/
   margin-bottom: 100px
 
-}
-
-.content article{
-  padding: 100px 0;
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .skills_columns{
@@ -101,7 +338,6 @@ img{
 
 #tripp_world{
   position: relative;
-  height: 2500px;
   background-image: url(/images/star_field_bg2.png);
   background-size: auto 1200px;
   background-position: top center;
@@ -127,7 +363,6 @@ img{
   background-position: top center;
   background-size: 100% auto;
   position: relative;
-  bottom: 3000px;
 }
 
 .tripp_figure{
@@ -136,8 +371,6 @@ img{
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 85% auto;
-  position: relative;
-  bottom: 6850px;
 }
 
 .planets_one{
@@ -147,17 +380,15 @@ img{
   background-position: top center;
   background-size: 85% auto;
   position: relative;
-  bottom: 9850px;
 }
 
 .tripp_logo{
   height: 4000px;
-  background-image: url(/images/tripp_logo_resize1.png);
+  background-image: url(/images/spacetripp_logo-02b.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 75% auto;
   position: relative;
-  bottom: 13850px;
 }
 
 .space_lines{
@@ -167,7 +398,6 @@ img{
   background-position: top center;
   background-size: 100% auto;
   position: relative;
-  bottom: 16650px;
 }
 
 .planets_two{
@@ -177,7 +407,6 @@ img{
   background-position: top center;
   background-size: 75% auto;
   position: relative;
-  bottom: 21450px;
 }
 
 .asteroids2A{
@@ -187,7 +416,6 @@ img{
   background-position: top center;
   background-size: 80% auto;
   position: relative;
-  bottom: 25200px;
   z-index: 5;
 }
 
@@ -198,7 +426,6 @@ img{
   background-position: top center;
   background-size: 80% auto;
   position: relative;
-  bottom: 29200px;
   z-index: 5;
 }
 
@@ -207,13 +434,13 @@ img{
   background-image: url(/images/asteroids_4C.png);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 80% auto;
+  background-size: 110% auto;
   position: relative;
-  bottom: 6800px;
-  z-index: 5;
+  z-index: 100;
 }
 
 .section_title{
+  margin: 0px;
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -223,37 +450,26 @@ img{
 }
 
 #profile_title{
-  height: 240px;
   background-image: url(/images/tripp_logo_resize1.png);
-  background-size: 90% auto;
 }
 
 #project1_title{
-  height: 180px;
   background-image: url(/images/webdev_projects/byfn_comics_title_web.png);
-  background-size: 85% auto;
 }
 
 #project2_title{
-  height: 220px;
   background-image: url(/images/webdev_projects/soap_box_title.png);
-  background-size: 80% auto;
 }
 
 #project3_title{
-  height: 180px;
   background-image: url(/images/webdev_projects/operation_drebbel_title.png);
-  background-size: 80% auto;
 }
-
 
 #gdesign_link{
   font-size: 17px;
   text-decoration: none;
   color: #76A4CB;
-
 }
-
 
 #gdesign_link:hover{
 color: #00BDFD;
@@ -301,20 +517,10 @@ color: #00BDFD;
   transition: all 0.3s ease-in-out;
 }
 
-#parallax_port_2{
-  position: relative;
-  top: 1000px;
-  left: 0px;
-  padding: 0px;
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-
 /*Footer*/
 
 footer{
+  margin: 0 auto;
   background: black;
   color: white;
   padding: 10px 0px;
@@ -326,7 +532,8 @@ footer{
 footer ul{
   list-style: none;
   list-style-image: none;
-  list-style-position:
+  max-width: 100%;
+  margin: 0px;
 }
 
 footer li{
@@ -343,55 +550,47 @@ footer a:hover{
   color: #5C9AD2;
 }
 
+footer strong{
+  margin-top: 5px;
+}
+
 #footer_column1{
+  margin: 0 auto;
   position: relative;
-  right: 70px;
+  width: 264px;
+  text-align: left;
+  padding-right: 40px;
+  /*right: 70px;*/
 }
 
 #footer_column2{
+  margin: 0 auto;
   position: relative;
-  right: 90px;
+  width: 264px;
+  text-align: right;
+  padding-right: 40px;
+  /*right: 90px;*/
 }
 
 .info_link{
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .footer_content{
-  max-width: 640px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
   margin: 0px auto;
 }
 
 .footer_columns{
+  max-width: 350px;
+  /*padding: 9px 9px;*/
+  /*text-align: center;*/
+  margin: 0 auto;
   vertical-align: top;
   display: inline-block;
-}
-
-.tripp_logo_outline{
-  /*display: inline-block;*/
-  width:400px;
-  height: 185px;
-  background-image: url(/images/tripp_logo_outline.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% auto;
-  position: relative;
-  left: 350px;
-  bottom: 184px;
-}
-
-.tripp_logo_nav{
-  /*display: inline-block;*/
-  height: 100px;
-  background-image: url(/images/tripp_logo_navB.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% auto;
-  position: relative;
-  top: 35px;
-  right:13px;
-  margin-bottom: 0px;
-  z-index: 7;
+  padding-top: 3px;
 }
 
 .menu{
@@ -400,33 +599,42 @@ footer a:hover{
 
 nav.page-navigation{
   margin-top: 0px;
-  margin-left: 50px;
+  margin-left: 3px;
   margin-bottom: 0px;
   padding-left: 0px;
   color: #ccc;
-  width: 330px;
-  background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
   position: fixed;
-  left: 15%;
+  left: 5%;
   top: 10%;
   left: 0;
-  z-index: 6;
+  z-index: 999;
 }
 
-nav.page-navigation ul{
-  margin-left: 10px;
+#navigation{
+  text-align: center;
+  margin-left: 0px;
   padding-left: 0px;
-  padding-top: 15px;
-  border-left: 7px solid #ccc;
+  padding-top: 0px;
   list-style: none;
   z-index: 10;
 }
 
+#navigation a{
+  text-align: center;
+  margin: 0px;
+}
+
+.navbar_title{
+  text-align: left;
+}
+
 nav.page-navigation li{
+  text-align: center;
   padding-left: 0px;
   text-align: left;
   width: 100%;
   margin-top: 10px;
+  display: inline-block;
 }
 
 nav.page-navigation a{
@@ -459,65 +667,29 @@ nav.page-navigation a:hover{
   z-index: 10;
 }
 
-/*.warp_button_console{
-  position: relative;
-  padding: 0px;
-  max-width: 610px;
-  margin: 0 auto;
-  text-align: center;
-}*/
-
-.warp_button_element{
-  height: 370px;
-  background-image: url(/images/warp_button_rs.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% auto;
-  z-index: 5;
-}
-
-.warp_button_element:hover{
-  height: 370px;
-  background-image: url(/images/warp_button_rs2.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 110% auto;
-  z-index: 5;
-}
-
-#warp_button2{
-  margin: 0px;
-  position: relative;
-}
-
 #star_field{
   width: 100%;
   position: relative;
-  left: 80px;
 }
 
 #star{
   width: 100%;
   position: relative;
-  left: 80px;
 }
 
 #moon_1{
   width: 100%;
   position: relative;
-  left: 80px;
 }
 
 #planet{
   width: 100%;
   position: relative;
-  left: 80px;
 }
 
 #in_view_asteroids{
   width: 100%;
   position: relative;
-  left: 90px;
 }
 
 #moon_2{
@@ -530,32 +702,15 @@ nav.page-navigation a:hover{
 #in_view_asteroids2{
   width: 115%;
   position: relative;
-  left: 80px;
+
 }
 
 #port_window{
-  width: 115%;
+  width: 100%;
   position: relative;
   top: 10px;
-  left: 80px;
-}
-
-/*#parallax_viewport{
-  position:relative;
-  overflow:hidden;
-  /*width:npx;
-  height:npx;*/
-/*}*/
-
-#parallax_port{
-  padding: 0px;
-  height: 450px;
-  position: relative;
-  right: 140px;
-  width: 158%;
-  overflow: hidden;
 }
 
 #parallax_port img{
-  max-width: 80%;
+  max-width: 100%;
 }
