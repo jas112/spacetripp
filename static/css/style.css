@@ -101,7 +101,7 @@
   .asteroids3{height: 3600px;position: relative;bottom: 6800px;z-index: 100;}
 
   #tripp_world{
-    height: 2500px;
+    height: 2000px;
   }
 
   .tripp_figure{position: relative; bottom: 6850px;}
@@ -178,7 +178,7 @@
   .planets_one{height: 4000px;position: relative;bottom: 9850px;}
   .tripp_logo{height: 4000px;position: relative;bottom: 13850px;}
   .space_lines{bottom: 16650px;}
-  .planets_two{height: 4000px;position: relative;bottom: 21450px;}
+  .planets_two{height: 4000px;position: relative;bottom: 21175px;}
   .asteroids2A{height: 3600px;bottom: 25200px;}
   .asteroids2B{height: 3600px;bottom: 29200px;}
   .asteroids3{height: 3600px;position: relative;bottom: 6800px;z-index: 100;}
