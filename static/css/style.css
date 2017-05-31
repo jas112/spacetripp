@@ -34,7 +34,7 @@
   .section_nfo{font-size: .85rem;}
   .screenshots_txt{font-size: 1.0rem;}
   .project_title_txt{font-weight: bold; font-size: 1.2rem;}
-  nav.page-navigation{width: 10px;}
+  nav.page-navigation{width: 10px; padding-left: 5px;}
   #navigation a{font-size: 1.9rem;}
   #profile_title{height: 100px; background-size: 90% auto;}
   #project1_title{height: 130px; background-size: 85% auto;}
@@ -117,7 +117,7 @@
   .section_nfo{font-size: 1.05rem;}
   .screenshots_txt{font-size: 1.2rem;}
   .project_title_txt{font-weight: bold; font-size: 1.3rem;}
-  nav.page-navigation{width: 50px;}
+  nav.page-navigation{width: 50px; padding-left: 10px;}
   #navigation a{font-size: 2.5rem;}
   #profile_title{height: 200px; background-size: 70% auto;}
   #project1_title{height: 160px; background-size: 75% auto;}
@@ -204,7 +204,7 @@
     .section_nfo{font-size: 1.15rem;}
     .screenshots_txt{font-size: 1.3rem;}
     .project_title_txt{font-weight: bold; font-size: 1.4rem;}
-    nav.page-navigation{width: 223px;}
+    nav.page-navigation{width: 223px; padding-left: 15px;}
     #navigation a{font-size: 2.3rem;}
     #profile_title{height: 240px; background-size: 90% auto;}
     #project1_title{height: 200px; background-size: 95% auto;}
@@ -475,6 +475,16 @@ img{
 color: #00BDFD;
 }
 
+.page_link{
+  text-decoration: none;
+  color: orange;
+}
+
+.page_link:hover{
+  color: yellow;
+}
+
+
 /*Image Grid*/
 
 .gallery_images {
@@ -543,11 +553,11 @@ footer li{
 footer a{
   font-size: 17px;
   text-decoration: none;
-  color: white;
+  color: orange;
 }
 
 footer a:hover{
-  color: #5C9AD2;
+  color: yellow;
 }
 
 footer strong{
@@ -601,7 +611,6 @@ nav.page-navigation{
   margin-top: 0px;
   margin-left: 3px;
   margin-bottom: 0px;
-  padding-left: 0px;
   color: #ccc;
   position: fixed;
   left: 5%;
