@@ -637,6 +637,11 @@ nav.page-navigation{
   text-align: left;
 }
 
+#navBarDivider{
+  font-family: bold;
+  font-size: 18px;
+}
+
 nav.page-navigation li{
   text-align: center;
   padding-left: 0px;
