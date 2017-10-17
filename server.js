@@ -13,6 +13,15 @@ app.set('view engine', 'ejs');
 app.get('/', function(req, res) {
  res.render('index');
 })
+app.get('/starhero', function(req, res) {
+ res.render('starhero');
+})
+app.get('/castor', function(req, res) {
+ res.render('castor');
+})
+app.get('/nim', function(req, res) {
+ res.render('nim');
+})
 
 app.listen(8000, function() {
  console.log('listening on port 8000');

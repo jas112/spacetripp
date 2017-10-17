@@ -2,6 +2,18 @@
   /*outline: 1px dotted red;*/
 }
 
+@-webkit-keyframes pulse {
+ 0%      {-webkit-transform: scale(1, 1);}
+ 50%     {-webkit-transform: scale(1.1, 1.1);}
+ 100%    {-webkit-transform: scale(1, 1);}
+}
+
+@keyframes pulse {
+ 0%      {transform: scale(1, 1);}
+ 50%     {transform: scale(1.1, 1.1);}
+ 100%    {transform: scale(1, 1);}
+}
+
 @media only screen and (max-width: 480px){
 
   body{
@@ -40,6 +52,8 @@
   #project1_title{height: 130px; background-size: 85% auto;}
   #project2_title{height: 150px; background-size: 80% auto;}
   #project3_title{height: 120px; background-size: 80% auto;}
+  #project4_title{height: 120px; background-size: 80% auto;}
+  #project5_title{height: 120px; background-size: 80% auto;}
   #parallax_port{height: 240px;}
 
   .link_caption{
@@ -123,6 +137,8 @@
   #project1_title{height: 160px; background-size: 75% auto;}
   #project2_title{height: 180px; background-size: 60% auto;}
   #project3_title{height: 140px; background-size: 60% auto;}
+  #project4_title{height: 120px; background-size: 80% auto;}
+  #project5_title{height: 180px; background-size: 80% auto;}
   #parallax_port{height: 365px;}
 
   .link_caption{
@@ -210,6 +226,8 @@
     #project1_title{height: 200px; background-size: 95% auto;}
     #project2_title{height: 220px; background-size: 80% auto;}
     #project3_title{height: 180px; background-size: 80% auto;}
+    #project4_title{height: 180px; background-size: 80% auto;}
+    #project5_title{height: 250px; background-size: 80% auto;}
     #parallax_port{height: 380px;}
 
     .link_caption{
@@ -217,7 +235,7 @@
       top: 18px;
       right: 20px;
       color: #00BDFD;
-      font-size: .7rem;
+      font-size: 1.5rem;
       font-weight: bold;
       vertical-align: top;
       opacity: 0;
@@ -358,7 +376,7 @@ img{
 
 .asteroids{
   height: 3600px;
-  background-image: url(/images/asteroids_1C.png);
+  background-image: url(/images/asteroids_1CRV2.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
@@ -367,7 +385,7 @@ img{
 
 .tripp_figure{
   height: 4000px;
-  background-image: url(/images/tripp_figure_comp_alt.png);
+  background-image: url(/images/tripp_figure_compLrg.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 85% auto;
@@ -384,10 +402,10 @@ img{
 
 .tripp_logo{
   height: 4000px;
-  background-image: url(/images/spacetripp_logo-02b.png);
+  background-image: url(/images/trippLogoRevisedRRes4.png);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 75% auto;
+  background-size: 100% auto;
   position: relative;
 }
 
@@ -450,7 +468,7 @@ img{
 }
 
 #profile_title{
-  background-image: url(/images/tripp_logo_resize1.png);
+  background-image: url(/images/animatedTripp.gif);
 }
 
 #project1_title{
@@ -463,6 +481,26 @@ img{
 
 #project3_title{
   background-image: url(/images/webdev_projects/operation_drebbel_title.png);
+  /*outline: 1px solid yellow;*/
+}
+
+#project4_title{
+  background-image: url(/images/webdev_projects/blackbacklight_title.png);
+  /*outline: 1px solid yellow;*/
+  background-size: 100% auto;
+}
+
+#project4SMFace{
+  width: 35%;
+  height: auto;
+  -webkit-animation: pulse 1s linear infinite;
+  animation: pulse 1s linear infinite;
+}
+
+#project5_title{
+  background-image: url(/images/webdev_projects/algo_app_title.png);
+  /*outline: 1px solid yellow;*/
+  background-size: 100% auto;
 }
 
 #gdesign_link{
@@ -501,6 +539,15 @@ color: #00BDFD;
   cursor: pointer;
   display: inline-block;
 }
+
+/*.projectImagethumb{
+  overflow: hidden;
+}
+
+.projectImagethumb:hover{
+  transform: scale(1.1);
+}*/
+
 .gallery_images figure.is-showing {
   opacity: 1;
   transform: translateX(0px);
@@ -659,6 +706,10 @@ nav.page-navigation a{
   font-weight: bold;
   padding: 0.6em  10%;
   width: 80%;
+}
+
+.link_caption{
+  font-size: .6em;
 }
 
 nav.page-navigation .current a{

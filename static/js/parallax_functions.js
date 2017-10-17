@@ -14,7 +14,7 @@ $(window).scroll(function(){
   });
 
   $('.planets_one').css({
-    'transform': 'translate(0px, -'+ winScroll/480 +'%)'
+    'transform': 'translate(-'+ winScroll/284 +'%, -'+ winScroll/480 +'%)'
   });
 
   $('.tripp_logo').css({
@@ -26,7 +26,8 @@ $(window).scroll(function(){
   });
 
   $('.planets_two').css({
-    'transform': 'translate(0px, -'+ winScroll/3840 +'%)'
+    'transform': 'translate(0px, -'+ winScroll/3840 +'%)',
+    'transform': 'rotate(-'+ winScroll/300 +'deg)'
   });
 
   $('.asteroids2A').css({
@@ -38,7 +39,7 @@ $(window).scroll(function(){
   });
 
   $('.asteroids3').css({
-    'transform': 'translate(0px, -'+ winScroll/20 +'%)'
+    'transform': 'translate(0px, -'+ winScroll/13 +'%)'
   });
 
   if(winScroll > $('.gallery_images').offset().top - ($(window).height()/1.15)){
