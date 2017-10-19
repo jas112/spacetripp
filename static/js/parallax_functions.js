@@ -1,6 +1,7 @@
 $(window).scroll(function(){
   var winScroll = $(this).scrollTop();
   // console.log(winScroll);
+  console.log("i scroll", winScroll)
   $('.stars_iso').css({
     'transform': 'translate(0px, -'+ winScroll/3280 +'%)'
   });
@@ -49,5 +50,4 @@ $(window).scroll(function(){
       }, 150 * (i+1));
     });
   }
-
 });

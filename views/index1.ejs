@@ -10,7 +10,7 @@
   </head>
   <body>
   <div id="top"></div>
-<!--   <header id="tripp_world">
+  <header id="tripp_world">
     <div class="stars_iso"></div>
     <div class="asteroids"></div>
     <div class="tripp_figure"></div>
@@ -18,35 +18,8 @@
     <div class="tripp_logo"></div>
     <div class="space_lines"></div>
     <div class="planets_two"></div>
-  </header> -->
-  <header id="tripp_world">
-    <div class="parallaxFrame">
-      <img src="images/star_field1C.png" alt="star_Field1" class="frameImage" id="starField1">
-    </div>
-    <div class="parallaxFrame">
-      <img src="images/tripp_figure_compLrgRStest2.png" alt="tripp_Figure" class="frameImage" id="trippFigure">
-    </div>
-    <div class="parallaxFrame">
-      <img src="images/star.png" alt="star" class="frameImage" id="star">
-    </div>    
-    <div class="parallaxFrame">
-      <img src="images/planets_0C.png" alt="planets_G0" class="frameImage" id="planetsG0">
-    </div>    
-    <div class="parallaxFrame">
-      <img src="images/planets_1D.png" alt="planets_G1" class="frameImage" id="planetsG1">
-    </div>
-    <div class="parallaxFrame">
-      <img src="images/trippLogoRevisedRRes4.png" alt="tripp_Logo" class="frameImage" id="trippLogo">
-    </div>
-    <div class="parallaxFrame">
-      <img src="images/space_lines.png" alt="space_Lines" class="frameImage" id="spaceLines">
-    </div>
-    <div class="parallaxFrame">
-      <img src="images/planets_2D.png" alt="planets_G2" class="frameImage" id="planetsG2">
-    </div>
-<!--     <div class="parallaxFrame">
-      <img src="images/planets_2C.png" alt="planets_G2" class="frameImage">
-    </div> -->
+    <div class="asteroids2A"></div>
+    <div class="asteroids2B"></div>
   </header>
   <section class="content">
     <article>
@@ -407,7 +380,7 @@
         <img src="images/space_lines2.png">
       </div>
     </article>
-<!--     <div id="parallax_port_2">
+    <div id="parallax_port_2">
       <div class="layer" data-depth="0.00"><img src="images/viewport_parallax_2/vplax2_layer_0.png" alt="star_field" id="vp2_star_field"></div>
       <div class="layer" data-depth="0.025"><img src="images/viewport_parallax_2/vplax2_layer_point5.png" alt="star_field" id="vp2_star"></div>
       <div class="layer" data-depth="0.05"><img src="images/viewport_parallax_2/vplax2_layer_1.png" alt="small planet" id="vp2_planet1"></div>
@@ -420,7 +393,7 @@
       <div class="layer" data-depth=".70"><img src="images/viewport_parallax_2/vplax2_layer_3c.png" alt="spaceship 2" id="spaceship2"></div>
       <div class="layer" data-depth="1"><img src="images/viewport_parallax_2/vplax2_layer_4.png" alt="spaceship 3" id="spaceship3"></div>
       <div class="layer" data-depth="0.00"><img src="images/viewport_parallax_2/vplax2_layer_5.png" alt="control display" id="control_display"></div>
-    </div> -->
+    </div>
   <footer>
     <div class="footer_content">
       <div id="contact"></div>
@@ -472,31 +445,31 @@
     </div>
   </nav>
   <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-  <!-- <script type ="text/javascript" src="js/parallax_functions.js"></script> -->
-  <script type ="text/javascript" src="js/parallax_functions10182017.js"></script>
-  <!-- <script type="text/javascript" src="js/scrollingNavigation.js"></script> -->
+  <script type ="text/javascript" src="js/parallax_functions.js"></script>
   <script type="text/javascript" src="js/jquery.combinedScroll.js"></script>
   <script type ="text/javascript" src="js/parallax.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
     <!-- FancyBox -->
   <script type ="text/javascript">
     $(document).ready(function(){
-      $('.page-navigation').onePageNav();
       $('.fancybox').fancybox({
         'titlePosition'		: 'outside',
         'overlayColor'		: '#000',
         'overlayOpacity'	: 0.9
       });
+      $('.page-navigation').onePageNav();
       $('[data-fancybox]').fancybox({
         image : {
           protect: true
         }
       });
-      var scene = $('#parallax_port').get(0);
-      var parallax = new Parallax(scene);
-      // var scene2 = $('#parallax_port_2').get(0);
-      // var parallax2 = new Parallax(scene2); 
-    });   
+    });
+  </script>
+  <script type="text/javascript">
+    var scene = $('#parallax_port').get(0)
+    var parallax = new Parallax(scene)
+    var scene2 = $('#parallax_port_2').get(0)
+    var parallax2 = new Parallax(scene2)
   </script>
   </body>
 </html>
