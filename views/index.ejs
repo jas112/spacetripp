@@ -9,16 +9,7 @@
     <link rel="shortcut icon" href="images/spacetripp_favicon.ico" type="image/x-icon" />
   </head>
   <body>
-  <div id="top"></div>
-<!--   <header id="tripp_world">
-    <div class="stars_iso"></div>
-    <div class="asteroids"></div>
-    <div class="tripp_figure"></div>
-    <div class="planets_one"></div>
-    <div class="tripp_logo"></div>
-    <div class="space_lines"></div>
-    <div class="planets_two"></div>
-  </header> -->
+  <div id="section_top"></div>
   <header id="tripp_world">
     <div class="parallaxFrame">
       <img src="images/star_field1C.png" alt="star_Field1" class="frameImage" id="starField1">
@@ -44,13 +35,10 @@
     <div class="parallaxFrame">
       <img src="images/planets_2D.png" alt="planets_G2" class="frameImage" id="planetsG2">
     </div>
-<!--     <div class="parallaxFrame">
-      <img src="images/planets_2C.png" alt="planets_G2" class="frameImage">
-    </div> -->
   </header>
   <section class="content">
     <article>
-      <div id="profile"></div>
+      <div id="section_profile"></div>
       <div class="section_title" id="profile_title"></div>
       <hr>
       <p class="section_nfo">Some would say that I am soft spoken and contemplative.
@@ -104,7 +92,7 @@
         </div>
       </div>
       <img src="images/space_lines3.png" class="divider_img">
-      <div id="web_development_work"></div>
+      <div id="section_web_development_work"></div>
       <p class="section_title_txt">Web Development</p>
       <!-- <hr> -->
       <p class="section_nfo">
@@ -119,25 +107,35 @@
         <div class="site-navigation page-navigation">
           <div class="menu">
             <figure class="columns four">
-              <a href="#byfn_comics" data-caption="Web Dev Project One"><img src="images/webdev_projects/project_thumbs/byfn_comics_title_thumb.png"></a>
+              <a href="#section_byfn_comics" data-caption="Web Dev Project One" onclick="$('#section_byfn_comics').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+                <img src="images/webdev_projects/project_thumbs/byfn_comics_title_thumb.png">
+              </a>
             </figure>
             <figure class="columns four">
-              <a href="#soapbox" data-caption="Web Dev Project One"><img src="images/webdev_projects/project_thumbs/soap_box_title_thumb.png"></a>
+              <a href="#section_soapbox" data-caption="Web Dev Project Two" onclick="$('#section_soapbox').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+                <img src="images/webdev_projects/project_thumbs/soap_box_title_thumb.png">
+              </a>
             </figure>
             <figure class="columns four">
-              <a href="#operation_drebbel" data-caption="Web Dev Project One"><img src="images/webdev_projects/project_thumbs/operation_drebbel_title_thumb.png"></a>
+              <a href="#section_operation_drebbel" data-caption="Web Dev Project Three" onclick="$('#section_operation_drebbel').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+                <img src="images/webdev_projects/project_thumbs/operation_drebbel_title_thumb.png">
+              </a>
             </figure>
             <figure class="columns four">
-              <a href="#blackbacklight" data-caption="Web Dev Project One"><img src="images/webdev_projects/project_thumbs/blackbacklight_title_thumb.png"></a>
+              <a href="#section_blackbacklight" data-caption="Web Dev Project Four" onclick="$('#section_blackbacklight').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+                <img src="images/webdev_projects/project_thumbs/blackbacklight_title_thumb.png">
+              </a>
             </figure>
             <figure class="columns four">
-              <a href="#algo_app" data-caption="Web Dev Project One"><img src="images/webdev_projects/project_thumbs/algo_app_title_thumb.png"></a>
+              <a href="#section_algo_app" data-caption="Web Dev Project Five" onclick="$('#section_algo_app').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+                <img src="images/webdev_projects/project_thumbs/algo_app_title_thumb.png">
+              </a>
             </figure>
           </div>
         </div>
         <img src="images/space_lines2.png" class="divider_img">
       </div>
-      <!-- <div id="byfn_comics"></div> -->
+      <div id="section_byfn_comics"></div>
       <div class="section_title" id="project1_title"></div>
       <!-- <hr> -->
       <p class="project_title_txt">BYF’n Comics - eCommerce Site for Comicbooks</p>
@@ -149,21 +147,31 @@
       <!-- <hr> -->
       <p class="screenshots_txt">Actual Project Screenshots</p>
       <div class="gallery_images">
-        <figure class="columns four"><a href="images/ecomics_web/ecomics_landing_page_sim_rs2.gif" data-fancybox="web_dev" data-caption="eComics: Landing Page"><img src="images/ecomics_web/ecomics_thumbs/ecomics_lp_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/ecomics_web/ecomics_landing_page_sim_rs2.gif" data-fancybox="web_dev" data-caption="eComics: Landing Page">
+            <img src="images/ecomics_web/ecomics_thumbs/ecomics_lp_thumb.PNG">
+          </a>
           <figcaption>eComics - <strong>Landing Page</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/ecomics_web/ecomics_products_main.jpg" data-fancybox="web_dev" data-caption="eComics: Main Products Showcase"><img src="images/ecomics_web/ecomics_thumbs/ecomics_products_main_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/ecomics_web/ecomics_products_main.jpg" data-fancybox="web_dev" data-caption="eComics: Main Products Showcase">
+            <img src="images/ecomics_web/ecomics_thumbs/ecomics_products_main_thumb.PNG">
+          </a>
           <figcaption>eComics - <strong>Products Main</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/ecomics_web/ecomics_product_spotlight.jpg" data-fancybox="web_dev" data-caption="eComics: Individual Product Showcase"><img src="images/ecomics_web/ecomics_thumbs/ecomics_product_spotlight_thumb.PNG"></a>
+        <figure class="columns four"><a href="images/ecomics_web/ecomics_product_spotlight.jpg" data-fancybox="web_dev" data-caption="eComics: Individual Product Showcase">
+          <img src="images/ecomics_web/ecomics_thumbs/ecomics_product_spotlight_thumb.PNG">
+        </a>
           <figcaption>eComics - <strong>Product Showcase</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/ecomics_web/ecomics_shopping_cart.jpg" data-fancybox="web_dev" data-caption="eComics: Shopping Cart"><img src="images/ecomics_web/ecomics_thumbs/ecomics_shopping_cart_thumb.PNG"></a>
+        <figure class="columns four"><a href="images/ecomics_web/ecomics_shopping_cart.jpg" data-fancybox="web_dev" data-caption="eComics: Shopping Cart">
+          <img src="images/ecomics_web/ecomics_thumbs/ecomics_shopping_cart_thumb.PNG">
+        </a>
           <figcaption>eComics - <strong>Shopping Cart</strong></figcaption>
         </figure>
         <img src="images/space_lines2.png" class="divider_img">
       </div>
-      <div id="soapbox"></div>
+      <div id="section_soapbox"></div>
       <div class="section_title" id="project2_title"></div>
       <!-- <hr> -->
       <p class="project_title_txt">Soap Box - Multi-Topic Discussion Website with Live Chat</p>
@@ -175,27 +183,44 @@
       <!-- <hr> -->
       <p class="screenshots_txt">Actual Project Screenshots</p>
       <div class="gallery_images">
-        <figure class="columns four"><a href="images/soapbox_web/soapbox_lp.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: Landing Page"><img src="images/soapbox_web/soapbox_thumbs/soapbox_lp_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/soapbox_web/soapbox_lp.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: Landing Page">
+            <img src="images/soapbox_web/soapbox_thumbs/soapbox_lp_thumb.PNG">
+          </a>
           <figcaption>SoapBox - <strong>Landing Page</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/soapbox_web/soapbox_register_page.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: User Registration Page"><img src="images/soapbox_web/soapbox_thumbs/soapbox_register_page_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/soapbox_web/soapbox_register_page.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: User Registration Page">
+            <img src="images/soapbox_web/soapbox_thumbs/soapbox_register_page_thumb.PNG">
+          </a>
           <figcaption>SoapBox - <strong>Registration</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/soapbox_web/soapbox_user_page.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: User Dashboard"><img src="images/soapbox_web/soapbox_thumbs/soapbox_user_page_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/soapbox_web/soapbox_user_page.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: User Dashboard">
+            <img src="images/soapbox_web/soapbox_thumbs/soapbox_user_page_thumb.PNG">
+          </a>
           <figcaption>SoapBox - <strong>Login</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/soapbox_web/soapbox_user_page2.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: User Dashboard with Live Chat Feature "><img src="images/soapbox_web/soapbox_thumbs/soapbox_user_page2_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/soapbox_web/soapbox_user_page2.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: User Dashboard with Live Chat Feature ">
+            <img src="images/soapbox_web/soapbox_thumbs/soapbox_user_page2_thumb.PNG">
+          </a>
           <figcaption>SoapBox - <strong>User Dash</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/soapbox_web/soapbox_discussion_page.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: Discussion Page"><img src="images/soapbox_web/soapbox_thumbs/soapbox_discussion_page_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/soapbox_web/soapbox_discussion_page.PNG" data-fancybox="web_dev_soapbox" data-caption="SoapBox: Discussion Page">
+            <img src="images/soapbox_web/soapbox_thumbs/soapbox_discussion_page_thumb.PNG">
+          </a>
           <figcaption>SoapBox - <strong>Discussion Page</strong></figcaption>
         </figure>
-        <figure class="columns four"><a data-fancybox data-src="http://54.214.118.132" href="javascript:;" data-caption="SoapBox MEAN Project"><img src="images/soapbox_web/soapbox_thumbs/soapbox_lp_thumb.PNG"></a>
+        <figure class="columns four"><a data-fancybox data-src="http://54.214.118.132" href="javascript:;" data-caption="SoapBox MEAN Project">
+          <img src="images/soapbox_web/soapbox_thumbs/soapbox_lp_thumb.PNG">
+        </a>
           <figcaption>SoapBox - <strong>Deployed Project</strong></figcaption>
         </figure>
         <img src="images/space_lines2.png" class="divider_img">
       </div>
-      <div id="operation_drebbel"></div>
+      <div id="section_operation_drebbel"></div>
       <div class="section_title" id="project3_title"></div>
       <!-- <hr> -->
       <p class="project_title_txt">Operation Drebbel - Web Platform for a Gosu/Ruby Based Game</p>
@@ -207,39 +232,69 @@
       <!-- <hr> -->
       <p class="screenshots_txt">Actual Project Screenshots</p>
       <div class="gallery_images">
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_screen.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Concept Landing Page"><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_screen_thumb_mod.jpg"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_screen.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Concept Landing Page">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_screen_thumb_mod.jpg">
+          </a>
           <figcaption>Operation Drebbel - <strong>LP Concept</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_lp_2.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Landing Page Actual"><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_lp_2_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_lp_2.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Landing Page Actual">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_lp_2_thumb.PNG">
+          </a>
           <figcaption>Operation Drebbel - <strong>LP Actual</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_register.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Registration Page"><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_register_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_register.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Registration Page">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_register_thumb.PNG">
+          </a>
           <figcaption>Operation Drebbel - <strong>Reg. Page</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_login.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Login Page"><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_login_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_login.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Login Page">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_login_thumb.PNG">
+          </a>
           <figcaption>Operation Drebbel - <strong>Login Page</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_userdashboard.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: User Dashboard Admin Version"><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_userdashboard_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_userdashboard.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: User Dashboard Admin Version">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_userdashboard_thumb.PNG">
+          </a>
           <figcaption>Operation Drebbel - <strong>User Dash</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_privatemessaging.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Private Messaging"><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_privatemessaging_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_privatemessaging.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Private Messaging">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_privatemessaging_thumb.PNG">
+          </a>
           <figcaption>Operation Drebbel - <strong>Private Comms</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_discussionboard.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Discussion Board"><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_discussionboard_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_discussionboard.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Discussion Board">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_discussionboard_thumb.PNG">
+          </a>
           <figcaption>Operation Drebbel - <strong>Discussion Brd.</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_discussion_topic_page.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Topic Showcase Page"><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_discussion_topic_page_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_discussion_topic_page.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Topic Showcase Page">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_discussion_topic_page_thumb.PNG">
+          </a>
           <figcaption>Operation Drebbel - <strong>Topic Showcase</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_user_management.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Admin Feature - User Management, Admin level users can regulate regular user activity on the site from this page."><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_user_management_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_user_management.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Admin Feature - User Management, Admin level users can regulate regular user activity on the site from this page.">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_user_management_thumb.PNG">
+          </a>
           <figcaption>Operation Drebbel - <strong>Admin Feature 1</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/drebbel_web/operation_drebbel_user_warning_page.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Admin Feature - Admin level users can issue warnings to regular users for prohibited activity."><img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_user_warning_page_thumb.PNG"></a>
+        <figure class="columns four">
+          <a href="images/drebbel_web/operation_drebbel_user_warning_page.jpg" data-fancybox="web_dev_drebbel" data-caption="Operation Drebbel: Admin Feature - Admin level users can issue warnings to regular users for prohibited activity.">
+            <img src="images/drebbel_web/drebbel_thumbs/operation_drebbel_user_warning_page_thumb.PNG">
+          </a>
           <figcaption>Operation Drebbel - <strong>User Warnings</strong></figcaption>
         </figure>
         <img src="images/space_lines2.png" class="divider_img">
       </div>
-      <div id="blackbacklight"></div>
+      <div id="section_blackbacklight"></div>
       <div class="section_title" id="project4_title"></div>
       <!-- <hr> -->
       <p class="project_title_txt">BlackBackLight - Experimental Website</p>
@@ -253,27 +308,45 @@
       <!-- <hr> -->
       <p class="screenshots_txt">Actual Project Screenshots</p>
       <div class="gallery_images">
-        <figure class="columns four"><a href="images/blackbacklight_web/blackbacklight1.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Black Landing Page"><img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklight1_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/blackbacklight_web/blackbacklight1.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Black Landing Page">
+            <img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklight1_thumb.png">
+          </a>
           <figcaption>BlackBackLight - <strong>Black 1</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/blackbacklight_web/blackbacklight2.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Black Sleeping Page"><img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklight2_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/blackbacklight_web/blackbacklight2.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Black Sleeping Page">
+            <img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklight2_thumb.png">
+          </a>
           <figcaption>BlackBackLight - <strong>Black 2</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/blackbacklight_web/blackbacklightRed1.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Red Landing Page"><img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklightRed1_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/blackbacklight_web/blackbacklightRed1.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Red Landing Page">
+            <img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklightRed1_thumb.png">
+          </a>
           <figcaption>BlackBackLight - <strong>Red 1</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/blackbacklight_web/blackbacklightRed2.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Red Sleeping Page"><img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklightRed2_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/blackbacklight_web/blackbacklightRed2.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Red Sleeping Page">
+            <img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklightRed2_thumb.png">
+          </a>
           <figcaption>BlackBackLight - <strong>Red 2</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/blackbacklight_web/blackbacklightGreen1.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Green Landing Page"><img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklightGreen1_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/blackbacklight_web/blackbacklightGreen1.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Green Landing Page">
+            <img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklightGreen1_thumb.png">
+          </a>
           <figcaption>BlackBackLight - <strong>Green 1</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/blackbacklight_web/blackbacklightGreen2.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Green Sleeping Page"><img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklightGreen2_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/blackbacklight_web/blackbacklightGreen2.png" data-fancybox="web_dev_blackbacklight" data-caption="BlackBackLight: Green Sleeping Page">
+            <img src="images/blackbacklight_web/blackbacklight_thumbs/blackbacklightGreen2_thumb.png">
+          </a>
           <figcaption>BlackBackLight - <strong>Green 2</strong></figcaption>
         </figure>
         <img src="images/space_lines2.png" class="divider_img">
       </div>
-      <div id="algo_app"></div>
+      <div id="section_algo_app"></div>
       <div class="section_title" id="project5_title"></div>
       <!-- <hr> -->
       <p class="project_title_txt">Algo App - Early Build Algorithm Challenge Site</p>
@@ -285,30 +358,51 @@
       <!-- <hr> -->
       <p class="screenshots_txt">Actual Project Screenshots</p>
       <div class="gallery_images">
-        <figure class="columns four"><a href="images/algo_app_web/algo_app_1.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Entrance Page"><img src="images/algo_app_web/algo_app_thumbs/algo_app_1_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/algo_app_web/algo_app_1.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Entrance Page">
+            <img src="images/algo_app_web/algo_app_thumbs/algo_app_1_thumb.png">
+          </a>
           <figcaption>Algo App - <strong>Entrance</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/algo_app_web/algo_app_login.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Login Feature"><img src="images/algo_app_web/algo_app_thumbs/algo_app_login_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/algo_app_web/algo_app_login.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Login Feature">
+            <img src="images/algo_app_web/algo_app_thumbs/algo_app_login_thumb.png">
+          </a>
           <figcaption>Algo App - <strong>Login</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/algo_app_web/algo_app_register.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Register Feature"><img src="images/algo_app_web/algo_app_thumbs/algo_app_register_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/algo_app_web/algo_app_register.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Register Feature">
+            <img src="images/algo_app_web/algo_app_thumbs/algo_app_register_thumb.png">
+          </a>
           <figcaption>Algo App - <strong>Register</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/algo_app_web/algo_app_visitor_dash.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Guest User Page"><img src="images/algo_app_web/algo_app_thumbs/algo_app_visitor_dash_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/algo_app_web/algo_app_visitor_dash.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Guest User Page">
+            <img src="images/algo_app_web/algo_app_thumbs/algo_app_visitor_dash_thumb.png">
+          </a>
           <figcaption>Algo App - <strong>Visitor Page</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/algo_app_web/algo_app_member_dash.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Member User Page"><img src="images/algo_app_web/algo_app_thumbs/algo_app_member_dash_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/algo_app_web/algo_app_member_dash.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Member User Page">
+            <img src="images/algo_app_web/algo_app_thumbs/algo_app_member_dash_thumb.png">
+          </a>
           <figcaption>Algo App - <strong>Memeber Page</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/algo_app_web/algo_app_admin_dash.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Admin User Page"><img src="images/algo_app_web/algo_app_thumbs/algo_app_admin_dash_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/algo_app_web/algo_app_admin_dash.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Admin User Page">
+            <img src="images/algo_app_web/algo_app_thumbs/algo_app_admin_dash_thumb.png">
+          </a>
           <figcaption>Algo App - <strong>Admin Page</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/algo_app_web/algo_app_admin_tools.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Admin User Tools"><img src="images/algo_app_web/algo_app_thumbs/algo_app_admin_tools_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/algo_app_web/algo_app_admin_tools.png" data-fancybox="web_dev_drebbel" data-caption="Algo App: Admin User Tools">
+            <img src="images/algo_app_web/algo_app_thumbs/algo_app_admin_tools_thumb.png">
+          </a>
           <figcaption>Algo App - <strong>Admin Tools</strong></figcaption>
         </figure>
         <img src="images/space_lines2.png" class="divider_img">
       </div>
-      <div id="graphic_design_work"></div>
+      <div id="section_graphic_design_work"></div>
       <p class="section_title_txt">Graphic Design</p>
       <!-- <hr> -->
       <p class="section_nfo">
@@ -340,7 +434,7 @@
         </figure>
         <img src="images/space_lines3.png" class="divider_img">
       </div>
-      <div id="illustration_work"></div>
+      <div id="section_illustration_work"></div>
       <p class="section_title_txt">Illustration</p>
       <!-- <hr> -->
       <p class="section_nfo">
@@ -349,27 +443,45 @@
       </p>
       <!-- <hr> -->
       <div class="gallery_images">
-        <figure class="columns four"><a href="images/illio_images/Floating_Base.jpg" data-fancybox="illustration" data-caption="One of images that I produced with Illustrator...many moons ago."><img src="images/illio_images/illio_thumbs/Floating_Base_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/illio_images/Floating_Base.jpg" data-fancybox="illustration" data-caption="One of images that I produced with Illustrator...many moons ago.">
+            <img src="images/illio_images/illio_thumbs/Floating_Base_thumb.png">
+          </a>
           <figcaption>Illustration - <strong>The Beginning</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/illio_images/scifi_landscape.jpg" data-fancybox="illustration" data-caption="StarHero - "><img src="images/illio_images/illio_thumbs/scifi_landscape_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/illio_images/scifi_landscape.jpg" data-fancybox="illustration" data-caption="StarHero - ">
+            <img src="images/illio_images/illio_thumbs/scifi_landscape_thumb.png">
+          </a>
           <figcaption>StarHero - <strong>Concept Art</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/illio_images/StarHero_Starship.gif" data-fancybox="illustration" data-caption="StarHero - "><img src="images/illio_images/illio_thumbs/StarHero_Starship_color_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/illio_images/StarHero_Starship.gif" data-fancybox="illustration" data-caption="StarHero - ">
+            <img src="images/illio_images/illio_thumbs/StarHero_Starship_color_thumb.png">
+          </a>
           <figcaption>StarHero - <strong>Concept Art</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/illio_images/SciFiHero_robots_B.jpg" data-fancybox="illustration" data-caption="StarHero - "><img src="images/illio_images/illio_thumbs/SciFiHero_robots_B_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/illio_images/SciFiHero_robots_B.jpg" data-fancybox="illustration" data-caption="StarHero - ">
+            <img src="images/illio_images/illio_thumbs/SciFiHero_robots_B_thumb.png">
+          </a>
           <figcaption>StarHero - <strong>Concept Art</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/illio_images/SciFiHero_robots_A_alt.jpg" data-fancybox="illustration" data-caption="StarHero - "><img src="images/illio_images/illio_thumbs/SciFiHero_robots_A_alt_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/illio_images/SciFiHero_robots_A_alt.jpg" data-fancybox="illustration" data-caption="StarHero - ">
+            <img src="images/illio_images/illio_thumbs/SciFiHero_robots_A_alt_thumb.png">
+          </a>
           <figcaption>StarHero - <strong>Concept Art</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="images/illio_images/the_atlantean_rs.jpg" data-fancybox="illustration" data-caption="The Atlantean - "><img src="images/illio_images/illio_thumbs/the_atlantean_rs_thumb.png"></a>
+        <figure class="columns four">
+          <a href="images/illio_images/the_atlantean_rs.jpg" data-fancybox="illustration" data-caption="The Atlantean - ">
+            <img src="images/illio_images/illio_thumbs/the_atlantean_rs_thumb.png">
+          </a>
           <figcaption>The Atlantean <strong></strong></figcaption>
         </figure>
         <img src="images/space_lines2.png">
       </div>
-      <div id="creative_explorations"></div>
+      <div id="section_creative_explorations"></div>
       <p class="section_title_txt">Creative Explorations</p>
       <!-- <hr> -->
       <p class="section_nfo">
@@ -382,26 +494,41 @@
       <!-- <hr> -->
       <div class="gallery_images">
         <figure class="columns four">
-          <a href="/starhero" data-caption="Personal Project: StarHero" target="_blank"><img src="images/temp_img_rs.jpg"></a>
+          <a href="/starhero" data-caption="Personal Project: StarHero" target="_blank">
+            <img src="images/temp_img_rs.jpg">
+          </a>
           <figcaption>StarHero - <strong>Coming Soon...</strong></figcaption>
         </figure>
         <figure class="columns four">
-          <a href="/castor" data-caption="Personal Project: Castor" target="_blank"><img src="images/temp_img_rs.jpg"></a>
+          <a href="/castor" data-caption="Personal Project: Castor" target="_blank">
+            <img src="images/temp_img_rs.jpg">
+          </a>
           <figcaption>Castor - <strong>Coming Soon...</strong></figcaption>
         </figure>
         <figure class="columns four">
-          <a href="/nim" data-caption="Personal Project: Nim" target="_blank"><img src="images/temp_img_rs.jpg"></a>
+          <a href="/nim" data-caption="Personal Project: Nim" target="_blank">
+            <img src="images/temp_img_rs.jpg">
+          </a>
           <figcaption>Nim - <strong>Coming Soon...</strong></figcaption>
         </figure>
       </div>
       <div class="gallery_images">
-        <figure class="columns four"><a href="https://www.youtube.com/watch?v=tzmJC6PsqYE" data-fancybox="creative_explorations" data-caption="After Effects Exploration: Playing around with a story idea centering around a kid with their grandparent, hiding out on a desolate planet."><img src="images/creative_explorations/c_exp_thumbs/starhero_thumb.png"></a>
+        <figure class="columns four">
+          <a href="https://www.youtube.com/watch?v=tzmJC6PsqYE" data-fancybox="creative_explorations" data-caption="After Effects Exploration: Playing around with a story idea centering around a kid with their grandparent, hiding out on a desolate planet.">
+            <img src="images/creative_explorations/c_exp_thumbs/starhero_thumb.png">
+          </a>
           <figcaption>StarHero - <strong>AE Exploration</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="https://www.youtube.com/watch?v=9sDCFyeX3U0" data-fancybox="creative_explorations" data-caption="After Effects Exploration: Inspired by the works of a particular anime master, I crafted this little scene."><img src="images/creative_explorations/c_exp_thumbs/castor_thumb.png"></a>
+        <figure class="columns four">
+          <a href="https://www.youtube.com/watch?v=9sDCFyeX3U0" data-fancybox="creative_explorations" data-caption="After Effects Exploration: Inspired by the works of a particular anime master, I crafted this little scene.">
+            <img src="images/creative_explorations/c_exp_thumbs/castor_thumb.png">
+          </a>
           <figcaption>Castor - <strong>AE Exploration</strong></figcaption>
         </figure>
-        <figure class="columns four"><a href="https://www.youtube.com/watch?v=D8AnbkEBdzU" data-fancybox="creative_explorations" data-caption="After Effects Exploration: Remembering a time when I believe in mystical forest creatures...been watching a lot of 'The Dark Crystal' lately."><img src="images/creative_explorations/c_exp_thumbs/nim_thumb.png"></a>
+        <figure class="columns four">
+          <a href="https://www.youtube.com/watch?v=D8AnbkEBdzU" data-fancybox="creative_explorations" data-caption="After Effects Exploration: Remembering a time when I believe in mystical forest creatures...been watching a lot of 'The Dark Crystal' lately.">
+            <img src="images/creative_explorations/c_exp_thumbs/nim_thumb.png">
+          </a>
         <figcaption>Nim - <strong>AE Exploration</strong></figcaption>
         </figure>
         <img src="images/space_lines2.png">
@@ -423,16 +550,32 @@
     </div> -->
   <footer>
     <div class="footer_content">
-      <div id="contact"></div>
+      <div id="section_contact"></div>
       <div id="parallax_port">
-        <div class="layer" data-depth="0.00"><img src="images/viewport_parallax/viewport_layer_0.png" alt="star_field" id="star_field"></div>
-        <div class="layer" data-depth="0.05"><img src="images/viewport_parallax/viewport_layer_1.png" alt="star" id="star"></div>
-        <div class="layer" data-depth="0.20"><img src="images/viewport_parallax/viewport_layer_2.png" alt="moon_1" id="moon_1"></div>
-        <div class="layer" data-depth="0.30"><img src="images/viewport_parallax/viewport_layer_3.png" alt="planet" id="planet"></div>
-        <div class="layer" data-depth="0.70"><img src="images/viewport_parallax/viewport_layer_3C.png" alt="planet" id="in_view_asteroids"></div>
-        <div class="layer" data-depth="0.90"><img src="images/viewport_parallax/viewport_layer_4.png" alt="moon_2" id="moon_2"></div>
-        <div class="layer" data-depth="1"><img src="images/viewport_parallax/viewport_layer_3C2.png" alt="planet" id="in_view_asteroids2"></div>
-        <div class="layer" data-depth="0.00"><img src="images/viewport_parallax/viewport_layer_5.png" alt="spaceship_port_window" id="port_window" style="width: 150%;"></div>
+        <div class="layer" data-depth="0.00">
+          <img src="images/viewport_parallax/viewport_layer_0.png" alt="star_field" id="star_field">
+        </div>
+        <div class="layer" data-depth="0.05">
+          <img src="images/viewport_parallax/viewport_layer_1.png" alt="star" id="star">
+        </div>
+        <div class="layer" data-depth="0.20">
+          <img src="images/viewport_parallax/viewport_layer_2.png" alt="moon_1" id="moon_1">
+        </div>
+        <div class="layer" data-depth="0.30">
+          <img src="images/viewport_parallax/viewport_layer_3.png" alt="planet" id="planet">
+        </div>
+        <div class="layer" data-depth="0.70">
+          <img src="images/viewport_parallax/viewport_layer_3C.png" alt="planet" id="in_view_asteroids">
+        </div>
+        <div class="layer" data-depth="0.90">
+          <img src="images/viewport_parallax/viewport_layer_4.png" alt="moon_2" id="moon_2">
+        </div>
+        <div class="layer" data-depth="1">
+          <img src="images/viewport_parallax/viewport_layer_3C2.png" alt="planet" id="in_view_asteroids2">
+        </div>
+        <div class="layer" data-depth="0.00">
+          <img src="images/viewport_parallax/viewport_layer_5.png" alt="spaceship_port_window" id="port_window" style="width: 150%;">
+        </div>
       </div>
       <div class="footer_columns" id="footer_column1">
         <ul>
@@ -440,52 +583,118 @@
           <li><a href="mailto:jas.sandmaster@gmail.com" class="info_link">jas.sandmaster@gmail.com</a></li>
           <br>
           <strong>ADDITIONAL NFO</strong>
-          <li><a href="images/contact_images/JamesSanders_Resume_landscapeRS.jpg" data-fancybox="my_resume" data-caption="Current Resume Landscape Composition">View Landscape Resume</a></li>
-          <li><a href="images/contact_images/JamesSanders_Resume_portraitRS.jpg" data-fancybox="my_resume" data-caption="Current Resume Portrait Compostion">View Portrait Resume</a></li>
-          <li><a href="images/contact_images/JamesSanders_Resume_WebDev.pdf" data-fancybox="my_resume" data-caption="Current Resume Traditional Format">View Tradtional Resume</a></li>
-          <li><a href="images/contact_images/JamesSanders_Resume_WebDev.pdf"  data-caption="Current Resume Traditional Format">(right-click to download)</a></li>
+          <li>
+            <a href="images/contact_images/JamesSanders_Resume_landscapeRS.jpg" data-fancybox="my_resume" data-caption="Current Resume Landscape Composition">View Landscape Resume</a>
+          </li>
+          <li>
+            <a href="images/contact_images/JamesSanders_Resume_portraitRS.jpg" data-fancybox="my_resume" data-caption="Current Resume Portrait Compostion">View Portrait Resume</a>
+          </li>
+          <li>
+            <a href="images/contact_images/JamesSanders_Resume_WebDev.pdf" data-fancybox="my_resume" data-caption="Current Resume Traditional Format">View Tradtional Resume</a>
+          </li>
+          <li>
+            <a href="images/contact_images/JamesSanders_Resume_WebDev.pdf"  data-caption="Current Resume Traditional Format">(right-click to download)</a>
+          </li>
         </ul>
       </div>
       <div class="footer_columns" id="footer_column2">
         <ul>
           <strong>FIND ME ON</strong>
-          <li><a href="https://www.linkedin.com/in/jim-sanders-10739495">Linkedin</a></li>
-          <li><a href="https://github.com/jas112">GitHub</a></li>
-          <li><a href="https://cargocollective.com/TrippSanders">Cargo Collective</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/jim-sanders-10739495">Linkedin</a>
+          </li>
+          <li>
+            <a href="https://github.com/jas112">GitHub</a>
+          </li>
+          <li>
+            <a href="https://cargocollective.com/TrippSanders">Cargo Collective</a>
+          </li>
         </ul>
       </div>
       <div class="tripp_logo_outline"></div>
     </div>
   </footer>
 </section>
-<div class="asteroids3"></div>
-  <nav class="site-navigation page-navigation">
-    <div id="navigation" class="menu">
-      <li><strong class="navbar_title">NAV <span id="navBarDivider">|</span> BAR</strong></li>
-      <li ><a href="#top" id="nlink_1">&#9737;</a><span class="link_caption" id="lcap_1">TOP</span></li>
-      <li ><a href="#profile" id="nlink_2">&#9737;</a><span class="link_caption" id="lcap_2">ABOUT</span></li>
-      <li ><a href="#web_development_work" id="nlink_3">&#9737;</a><span class="link_caption" id="lcap_3">WEB DEVELOPMENT</span></li>
-      <li ><a href="#graphic_design_work" id="nlink_4">&#9737;</a><span class="link_caption" id="lcap_4">GRAPHIC DESIGN</span></li>
-      <li ><a href="#illustration_work" id="nlink_5">&#9737;</a><span class="link_caption" id="lcap_5">ILLUSTRATION</span></li>
-      <li ><a href="#creative_explorations" id="nlink_6">&#9737;</a><span class="link_caption" id="lcap_6">CREATIVE EXPLORATIONS</span></li>
-      <li ><a href="#contact" id="nlink_7">&#9737;</a><span class="link_caption" id="lcap_7">CONTACT</span></li>
+<div class="parallaxFrame">
+  <img src="images/asteroids_outer.png" alt="asteroids3" class="frameImage" id="asteroids3">
+</div>
+<!-- <div class="asteroids3"></div> -->
+  <nav id="pageNavigation">
+    <div id="navigationConsole">
+<!--       <li>
+        <strong class="navbar_title">NAV <span id="navBarDivider">|</span> BAR</strong><span class="link_caption" id="lcap_1">TOP</span>
+      </li> -->
+<!--       <li>
+        <span class="link_caption" id="lcap_1">TOP</span>
+        <span class="link_caption" id="lcap_2">ABOUT</span>
+        <span class="link_caption" id="lcap_3">WEB DEVELOPMENT</span>
+        <span class="link_caption" id="lcap_4">GRAPHIC DESIGN</span>
+        <span class="link_caption" id="lcap_5">ILLUSTRATION</span>
+        <span class="link_caption" id="lcap_6">CREATIVE EXPLORATIONS</span>
+        <span class="link_caption" id="lcap_7">CONTACT</span>
+      </li> -->
+      <li >
+        <a href="#section_top" id="nlink_1" onclick="$('#section_top').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+          <div class="navigationButton"></div>
+        </a>
+        <!-- <span class="link_caption" id="lcap_1">TOP</span> -->
+      </li>
+      <li >
+        <a href="#section_profile" id="nlink_2" onclick="$('#section_profile').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+          <div class="navigationButton"></div>
+        </a>
+        <!-- <span class="link_caption" id="lcap_2">ABOUT</span> -->
+      </li>
+      <li >
+        <a href="#section_web_development_work" id="nlink_3" onclick="$('#section_web_development_work').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+          <div class="navigationButton"></div>
+        </a>
+        <!-- <span class="link_caption" id="lcap_3">WEB DEVELOPMENT</span> -->
+      </li>
+      <li >
+        <a href="#section_graphic_design_work" id="nlink_4" onclick="$('#section_graphic_design_work').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+          <div class="navigationButton"></div>
+        </a>
+        <!-- <span class="link_caption" id="lcap_4">GRAPHIC DESIGN</span> -->
+      </li>
+      <li >
+        <a href="#section_illustration_work" id="nlink_5" onclick="$('#section_illustration_work').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+          <div class="navigationButton"></div>
+        </a>
+        <!-- <span class="link_caption" id="lcap_5">ILLUSTRATION</span> -->
+      </li>
+      <li >
+        <a href="#section_creative_explorations" id="nlink_6" onclick="$('#section_creative_explorations').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+          <div class="navigationButton"></div>
+        </a>
+        <!-- <span class="link_caption" id="lcap_6">CREATIVE EXPLORATIONS</span> -->
+      </li>
+      <li >
+        <a href="#section_contact" id="nlink_7" onclick="$('#section_contact').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
+          <div class="navigationButton"></div>
+        </a>
+        <!-- <span class="link_caption" id="lcap_7">CONTACT</span> -->
+      </li>
     </div>
   </nav>
-  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script> -->
+  <script type ="text/javascript" src="js/animatescroll.js"></script>
   <!-- <script type ="text/javascript" src="js/parallax_functions.js"></script> -->
   <script type ="text/javascript" src="js/parallax_functions10182017.js"></script>
   <!-- <script type="text/javascript" src="js/scrollingNavigation.js"></script> -->
-  <script type="text/javascript" src="js/jquery.combinedScroll.js"></script>
+  <!-- <script type="text/javascript" src="js/jquery.combinedScroll.js"></script> -->
   <script type ="text/javascript" src="js/parallax.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
     <!-- FancyBox -->
   <script type ="text/javascript">
     $(document).ready(function(){
-      $('.page-navigation').onePageNav();
+      $('body').animatescroll();
+      // $('.page-navigation').onePageNav();
       $('.fancybox').fancybox({
-        'titlePosition'		: 'outside',
-        'overlayColor'		: '#000',
-        'overlayOpacity'	: 0.9
+        'titlePosition'   : 'outside',
+        'overlayColor'    : '#000',
+        'overlayOpacity'  : 0.9
       });
       $('[data-fancybox]').fancybox({
         image : {

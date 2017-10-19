@@ -47,7 +47,7 @@ $(window).scroll(function(){
   //   'transform': 'translate('+ winScroll/24 +'%, -'+ winScroll/60 +'%)'
   // });
 
-  $('.asteroids3').css({
+  $('#asteroids3').css({
     'transform': 'translate(0px, -'+ winScroll/13 +'%)'
   });
 

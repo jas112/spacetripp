@@ -55,7 +55,7 @@
   #project4_title{height: 120px; background-size: 80% auto;}
   #project5_title{height: 120px; background-size: 80% auto;}
   #parallax_port{height: 240px;}
-
+/*
   .link_caption{
     position: relative;
     top: 18px;
@@ -86,7 +86,7 @@
     max-width: 290px;
     margin: 0 auto;
     text-align: center;
-  }
+  }*/
 
   #parallax_port{
     margin: 0 auto;
@@ -141,7 +141,7 @@
   #project5_title{height: 180px; background-size: 80% auto;}
   #parallax_port{height: 365px;}
 
-  .link_caption{
+/*  .link_caption{
     position: relative;
     top: 23px;
     right: 20px;
@@ -171,7 +171,7 @@
     max-width: 450px;
     margin: 0 auto;
     text-align: center;
-  }
+  }*/
 
   #parallax_port{
     margin: 0 auto;
@@ -199,7 +199,7 @@
   .asteroids2B{height: 3600px;bottom: 29200px;}
   .asteroids3{height: 3600px;position: relative;bottom: 6800px;z-index: 100;}
 
-  .tripp_figure{
+/*  .tripp_figure{
     height: 4000px;
     background-image: url(/images/tripp_figure_comp_alt.png);
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@
     background-size: 85% auto;
     position: relative;
     bottom: 6850px;
-  }
+  }*/
 
     p{font-size: 1.1rem;}
     .content article{
@@ -230,7 +230,7 @@
     #project5_title{height: 250px; background-size: 80% auto;}
     #parallax_port{height: 380px;}
 
-    .link_caption{
+/*    .link_caption{
       position: relative;
       top: 18px;
       right: 20px;
@@ -239,21 +239,21 @@
       font-weight: bold;
       vertical-align: top;
       opacity: 0;
-    }
+    }*/
 
-    #nlink_1:hover + #lcap_1{opacity: 1;}
+/*    #nlink_1:hover + #lcap_1{opacity: 1;}
     #nlink_2:hover + #lcap_2{opacity: 1;}
     #nlink_3:hover + #lcap_3{opacity: 1;}
     #nlink_4:hover + #lcap_4{opacity: 1;}
     #nlink_5:hover + #lcap_5{opacity: 1;}
     #nlink_6:hover + #lcap_6{opacity: 1;}
-    #nlink_7:hover + #lcap_7{opacity: 1;}
+    #nlink_7:hover + #lcap_7{opacity: 1;}*/
 
     .tripp_logo_outline{
       margin: 0 auto;
       max-width: 700px;
-      height: 240px;
-      background-image: url(/images/tripp_logo_outline.png);
+      height: 340px;
+      background-image: url(/images/animatedTrippOutline.gif);
       background-repeat: no-repeat;
       background-position: top center;
       background-size: 100% auto;
@@ -434,9 +434,15 @@ img{
   z-index: 500;
 }
 
+#asteroids3{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 4400px;
+  z-index: 500;
+}
 
-
-.stars_iso{
+/*.stars_iso{
   height: 3200px;
   background-image: url(/images/star_field1C.png);
   background-repeat: no-repeat;
@@ -516,9 +522,9 @@ img{
   background-size: 80% auto;
   position: relative;
   z-index: 5;
-}
+}*/
 
-.asteroids3{
+/*.asteroids3{
   height: 3600px;
   background-image: url(/images/asteroids_outer.png);
   background-repeat: no-repeat;
@@ -526,7 +532,7 @@ img{
   background-size: 110% auto;
   position: relative;
   z-index: 100;
-}
+}*/
 
 .section_title{
   margin: 0px;
@@ -725,7 +731,7 @@ footer strong{
   margin-top: 30px;
 }
 
-nav.page-navigation{
+/*nav.page-navigation{
   margin-top: 0px;
   margin-left: 3px;
   margin-bottom: 0px;
@@ -778,18 +784,63 @@ nav.page-navigation a{
   padding: 0.6em  10%;
   width: 80%;
 }
-
+*/
 .link_caption{
   font-size: .6em;
 }
 
-nav.page-navigation .current a{
+/*nav.page-navigation .current a{
   color: #5C9AD2;
 }
 
 nav.page-navigation a:hover{
   color: #00BDFD;
   transform: scale(2, 2);
+}*/
+
+#pageNavigation{
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  z-index: 9999;
+}
+
+#navigationConsole{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  /*color: white;*/
+}
+
+#navigationConsole li a{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+
+.navigationButton{
+  opacity: .5;
+  width: 40px;
+  height: 40px;
+  /*outline: 1px solid yellow;*/
+  background-image: url(/images/navButtonA.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigationButton:hover{
+  opacity: 1;
+  background-image: url(/images/navButtonC.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  transition: all 0.3s ease-in-out;
 }
 
 .deep_space_console{
