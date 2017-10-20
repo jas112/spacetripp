@@ -55,8 +55,8 @@
   #project4_title{height: 120px; background-size: 80% auto;}
   #project5_title{height: 120px; background-size: 80% auto;}
   #parallax_port{height: 240px;}
-/*
-  .link_caption{
+
+/*  .link_caption{
     position: relative;
     top: 18px;
     right: 20px;
@@ -65,20 +65,20 @@
     font-weight: bold;
     vertical-align: top;
     opacity: 0;
-  }
+  }*/
 
-  .tripp_logo_outline{
+  #tripp_logo_outline{
     margin: 0 auto;
     max-width: 700px;
     height: 240px;
-    background-image: url(/images/tripp_logo_outline.png);
+    background-image: url(/images/animatedTrippOutline.gif);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 75% auto;
     position: relative;
   }
 
-  #parallax_port_2{
+/*  #parallax_port_2{
     position: relative;
     top: -20px;
     left: 0px;
@@ -150,20 +150,20 @@
     font-weight: bold;
     vertical-align: top;
     opacity: 0;
-  }
+  }*/
 
-  .tripp_logo_outline{
+  #tripp_logo_outline{
     margin: 0 auto;
     max-width: 700px;
     height: 240px;
-    background-image: url(/images/tripp_logo_outline.png);
+    background-image: url(/images/animatedTrippOutline.gif);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 80% auto;
     position: relative;
   }
 
-  #parallax_port_2{
+/*  #parallax_port_2{
     position: relative;
     top: -20px;
     left: 0px;
@@ -249,7 +249,7 @@
     #nlink_6:hover + #lcap_6{opacity: 1;}
     #nlink_7:hover + #lcap_7{opacity: 1;}*/
 
-    .tripp_logo_outline{
+    #tripp_logo_outline{
       margin: 0 auto;
       max-width: 700px;
       height: 340px;
@@ -692,16 +692,17 @@ footer strong{
   margin: 0 auto;
   position: relative;
   width: 264px;
-  text-align: left;
+  text-align: center;
   padding-right: 40px;
   /*right: 70px;*/
 }
 
 #footer_column2{
   margin: 0 auto;
+  margin-top: 15px;
   position: relative;
   width: 264px;
-  text-align: right;
+  text-align: center;
   padding-right: 40px;
   /*right: 90px;*/
 }
