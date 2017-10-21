@@ -825,8 +825,8 @@ nav.page-navigation a:hover{
 
 .navigationButton{
   opacity: .5;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   /*outline: 1px solid yellow;*/
   background-image: url(/images/navButtonA.png);
   background-repeat: no-repeat;
@@ -836,6 +836,15 @@ nav.page-navigation a:hover{
 }
 
 .navigationButton:hover{
+  opacity: .8;
+  background-image: url(/images/navButtonC.png);
+  background-repeat: no-repeat;
+  background-size: 110% auto;
+  background-position: center center;
+  transition: all 0.3s ease-in-out;
+}
+
+nav div li a div.nav-active{
   opacity: 1;
   background-image: url(/images/navButtonC.png);
   background-repeat: no-repeat;
