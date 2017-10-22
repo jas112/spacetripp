@@ -1,7 +1,6 @@
 $(window).scroll(function(){
   var winScroll = $(this).scrollTop();
-  // console.log(winScroll);
-  console.log("i scroll", winScroll)
+  console.log("winScroll = ",winScroll);
   $('#starField1').css({
     'transform': 'translate(0px, -'+ winScroll/3280 +'%)'
   });

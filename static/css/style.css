@@ -832,7 +832,7 @@ nav.page-navigation a:hover{
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .navigationButton:hover{
@@ -841,16 +841,16 @@ nav.page-navigation a:hover{
   background-repeat: no-repeat;
   background-size: 110% auto;
   background-position: center center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
-nav div li a div.nav-active{
+div.nav-active{
   opacity: 1;
   background-image: url(/images/navButtonC.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .deep_space_console{
