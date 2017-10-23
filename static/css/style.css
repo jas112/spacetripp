@@ -846,9 +846,16 @@ nav.page-navigation a:hover{
 
 .navMenuTitle{
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 50%;
-  color: #448ccb;
+  padding:0px 4px 0px 4px;
+  border-radius: 50px;
+  background: rgb(68,140,203);
+/*  background: -webkit-linear-gradient(right, rgba(68,140,203,1), rgba(68,140,203,0));
+  background: -o-linear-gradient(right, rgba(68,140,203,1), rgba(68,140,203,0));
+  background: -moz-linear-gradient(right, rgba(68,140,203,1), rgba(255,0,0,0));
+  background: linear-gradient(to right, rgba(68,140,203,1), rgba(68,140,203,0));*/
+  color: black;
   font-weight: bold;
   display: none;
   opacity: .8;
