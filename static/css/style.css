@@ -800,9 +800,12 @@ nav.page-navigation a:hover{
 }*/
 
 #pageNavigation{
+  /*outline: 1px solid lime;*/
   position: fixed;
   top: 10%;
   left: 5%;
+/*  width: 20%;
+  height: auto;*/
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   text-align: center;
@@ -813,7 +816,13 @@ nav.page-navigation a:hover{
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   text-align: center;
+  font-size: 0px;
   /*color: white;*/
+}
+
+#navigationConsole li{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 #navigationConsole li a{
@@ -822,7 +831,87 @@ nav.page-navigation a:hover{
   text-align: center;
 }
 
+#navigationTitleDisplay{
+  /*outline: 1px solid yellow;*/
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: auto;
+  height: 50px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  /*text-align: center;*/
+  z-index: 9999;
+}
 
+.navMenuTitle{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  color: #448ccb;
+  font-weight: bold;
+  display: none;
+  opacity: .8;
+  transition: all 0.5s ease-in-out;
+}
+
+#lcap_1.activated{
+  position: relative;
+  top: 0px;
+  left: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
+#lcap_2.activated{
+  position: relative;
+  top: 50px;
+  left: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
+#lcap_3.activated{
+  position: relative;
+  top: 100px;
+  left: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
+#lcap_4.activated{
+  position: relative;
+  top: 150px;
+  left: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
+#lcap_5.activated{
+  position: relative;
+  top: 200px;
+  left: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
+#lcap_6.activated{
+  position: relative;
+  top: 250px;
+  left: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
+#lcap_7.activated{
+  position: relative;
+  top: 300px;
+  left: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
+/*#nlink_1:hover  #lcap_1{opacity: 1; display: inline-block; vertical-align: top; transition: all 0.1s ease-in-out; margin: 0px 0px 0px 0px;}
+#nlink_2:hover  #lcap_2{opacity: 1; display: inline-block; vertical-align: top; transition: all 0.1s ease-in-out; margin: 0px 0px 0px 0px;}
+#nlink_3:hover  #lcap_3{opacity: 1; display: inline-block; vertical-align: top; transition: all 0.1s ease-in-out; margin: 0px 0px 0px 0px;}
+#nlink_4:hover  #lcap_4{opacity: 1; display: inline-block; vertical-align: top; transition: all 0.1s ease-in-out; margin: 0px 0px 0px 0px;}
+#nlink_5:hover  #lcap_5{opacity: 1; display: inline-block; vertical-align: top; transition: all 0.1s ease-in-out; margin: 0px 0px 0px 0px;}
+#nlink_6:hover  #lcap_6{opacity: 1; display: inline-block; vertical-align: top; transition: all 0.1s ease-in-out; margin: 0px 0px 0px 0px;}
+#nlink_7:hover  #lcap_7{opacity: 1; display: inline-block; vertical-align: top; transition: all 0.1s ease-in-out; margin: 0px 0px 0px 0px;}
+*/
 .navigationButton{
   opacity: .5;
   width: 50px;
@@ -832,6 +921,7 @@ nav.page-navigation a:hover{
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center center;
+  margin: 0px 0px 0px 0px;
   transition: all 0.1s ease-in-out;
 }
 

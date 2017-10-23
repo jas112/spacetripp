@@ -623,52 +623,51 @@
   <img src="images/asteroids_outer.png" alt="asteroids3_image" class="frameImage" id="asteroids3">
 </div>
 <!-- <div class="asteroids3"></div> -->
+  <div id="navigationTitleDisplay">
+    <p class="navMenuTitle" id="lcap_1">TOP</p>
+    <p class="navMenuTitle" id="lcap_2">ABOUT</p>
+    <p class="navMenuTitle" id="lcap_3">WEB DEV</p>
+    <p class="navMenuTitle" id="lcap_4">GRAPHIC DESIGN</p>
+    <p class="navMenuTitle" id="lcap_5">ILLUSTRATION</p>
+    <p class="navMenuTitle" id="lcap_6">CREATIVE EXPLORATIONS</p>
+    <p class="navMenuTitle" id="lcap_7">CONTACT</p>
+  </div>
   <nav id="pageNavigation">
     <div id="navigationConsole">
-<!--       <li>
-        <strong class="navbar_title">NAV <span id="navBarDivider">|</span> BAR</strong><span class="link_caption" id="lcap_1">TOP</span>
-      </li> -->
-      <li >
+      <li id="L1">
         <a class="pageLink" href="#section_top" id="nlink_1" onclick="$('#section_top').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
           <div class="navigationButton"></div>
         </a>
-        <!-- <span class="link_caption" id="lcap_1">TOP</span> -->
       </li>
-      <li >
+      <li id="L2">
         <a class="pageLink" href="#section_profile" id="nlink_2" onclick="$('#section_profile').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
           <div class="navigationButton"></div>
         </a>
-        <!-- <span class="link_caption" id="lcap_2">ABOUT</span> -->
       </li>
-      <li >
+      <li id="L3">
         <a class="pageLink" href="#section_web_development_work" id="nlink_3" onclick="$('#section_web_development_work').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
           <div class="navigationButton"></div>
         </a>
-        <!-- <span class="link_caption" id="lcap_3">WEB DEVELOPMENT</span> -->
       </li>
-      <li >
+      <li id="L4">
         <a class="pageLink" href="#section_graphic_design_work" id="nlink_4" onclick="$('#section_graphic_design_work').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
           <div class="navigationButton"></div>
         </a>
-        <!-- <span class="link_caption" id="lcap_4">GRAPHIC DESIGN</span> -->
       </li>
-      <li >
+      <li id="L5">
         <a class="pageLink" href="#section_illustration_work" id="nlink_5" onclick="$('#section_illustration_work').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
           <div class="navigationButton"></div>
         </a>
-        <!-- <span class="link_caption" id="lcap_5">ILLUSTRATION</span> -->
       </li>
-      <li >
+      <li id="L6">
         <a class="pageLink" href="#section_creative_explorations" id="nlink_6" onclick="$('#section_creative_explorations').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
           <div class="navigationButton"></div>
         </a>
-        <!-- <span class="link_caption" id="lcap_6">CREATIVE EXPLORATIONS</span> -->
       </li>
-      <li >
+      <li id="L7">
         <a class="pageLink" href="#section_contact" id="nlink_7" onclick="$('#section_contact').animatescroll({scrollSpeed:2000,easing:'easeOutQuint'});">
           <div class="navigationButton"></div>
         </a>
-        <!-- <span class="link_caption" id="lcap_7">CONTACT</span> -->
       </li>
     </div>
   </nav>
@@ -681,38 +680,44 @@
   <script type ="text/javascript">
     $(document).ready(function(){
       $('body').animatescroll();
+      $("#nlink_1").hover(function(){$("#lcap_1").show().addClass("activated");}, function(){$("#lcap_1").hide().removeClass("activated");});
+      $("#nlink_2").hover(function(){$("#lcap_2").show().addClass("activated");}, function(){$("#lcap_2").hide().removeClass("activated");});
+      $("#nlink_3").hover(function(){$("#lcap_3").show().addClass("activated");}, function(){$("#lcap_3").hide().removeClass("activated");});
+      $("#nlink_4").hover(function(){$("#lcap_4").show().addClass("activated");}, function(){$("#lcap_4").hide().removeClass("activated");});
+      $("#nlink_5").hover(function(){$("#lcap_5").show().addClass("activated");}, function(){$("#lcap_5").hide().removeClass("activated");});
+      $("#nlink_6").hover(function(){$("#lcap_6").show().addClass("activated");}, function(){$("#lcap_6").hide().removeClass("activated");});
+      $("#nlink_7").hover(function(){$("#lcap_7").show().addClass("activated");}, function(){$("#lcap_7").hide().removeClass("activated");});
+      // var navButtons = $("nav div li").children();
+      // var aArray = [];
+      // for (var i=0; i < navButtons.length; i++){    
+      //   var aButton = navButtons[i];
+      //   var ahref = $(aButton).attr('href');
+      //   aArray.push(ahref);
+      // } 
 
-      var aChildren = $("nav div li").children();
-      var aArray = [];
-      for (var i=0; i < aChildren.length; i++){    
-        var aChild = aChildren[i];
-        var ahref = $(aChild).attr('href');
-        aArray.push(ahref);
-      } 
+      // console.log(aArray);
 
-      console.log(aArray);
-
-      $(window).scroll(function(){
-        var windowPos = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        var docHeight = $(document).height();
-        for (var i=0; i < aArray.length; i++){
-          var sectionID = aArray[i];
-          var sectionOffsetTop = $(sectionID).offset().top;
-          if(i <= aArray.length - 2){
-            var limitID = aArray[i+1];
-            var divEndPoint = $(limitID).offset().top;
-          } else{
-            var divEndPoint = docHeight;
-          }
-          var divPos = $(sectionID).offset().top;
-          var divHeight = divEndPoint - divPos;
-          if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
-            $(".navigationButton").removeClass('nav-active');
-            $("a[href='" + sectionID + "']").children("div").addClass('nav-active');
-          }
-        }
-      });
+      // $(window).scroll(function(){
+      //   var windowPos = $(window).scrollTop();
+      //   var windowHeight = $(window).height();
+      //   var docHeight = $(document).height();
+      //   for (var i=0; i < aArray.length; i++){
+      //     var sectionID = aArray[i];
+      //     var sectionOffsetTop = $(sectionID).offset().top;
+      //     if(i <= aArray.length - 2){
+      //       var limitID = aArray[i+1];
+      //       var divEndPoint = $(limitID).offset().top;
+      //     } else{
+      //       var divEndPoint = docHeight;
+      //     }
+      //     var divPos = $(sectionID).offset().top;
+      //     var divHeight = divEndPoint - divPos;
+      //     if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
+      //       $(".navigationButton").removeClass('nav-active');
+      //       $("a[href='" + sectionID + "']").children("div").addClass('nav-active');
+      //     }
+      //   }
+      // });
 
       // $("a.pageLink").click(function(){
       //   console.log("link is hit!")
